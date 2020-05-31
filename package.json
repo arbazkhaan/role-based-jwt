@@ -1,0 +1,33 @@
+{
+    "author": "ARBAZ KHAN",
+    "name": "role-based-jwt",
+    "version": "1.0.0",
+    "description": "Node.js Role Based Authorization API",
+    "scripts": {
+        "start": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.16.4",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.4.0",
+        "lodash": "^4.17.15",
+        "module-alias": "^2.2.2",
+        "mysql": "^2.18.1",
+        "pg": "^8.2.1",
+        "rootpath": "^0.1.2",
+        "sequelize": "^5.21.11"
+    },
+    "_moduleAliases": {
+        "@config": "./config",
+        "@middlewares": "./src/middlewares",
+        "@models": "./src/models",
+        "@modules": "./src/modules",
+        "@utils": "./src/utils"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.6"
+    }
+}
